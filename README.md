@@ -10,7 +10,7 @@ This react-django application is created to create chatrooms and send messages.
 * Open terminal in your desired location of installation of local.
 * Clone the repository.
 ```
-git clone https://github.com/htarab-b/Django-Shop_Dashboard_App.git
+git clone https://github.com/htarab-b/ChatRoom_App-React_Django.git
 ```
 * Create a virtual environment. (Optional)
 ```
