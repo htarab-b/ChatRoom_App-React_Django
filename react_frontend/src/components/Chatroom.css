@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Jura:400');
+
+.body {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #13b6ff, #00a9ff, #009bff, #2a8bff, #5279ff, #5c6cff, #6b5dff, #7b4afc, #753ffd, #6e32fe, #6721ff, #6004ff);
+}
+
+.chatbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'work sans';
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-top: -10px;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: 2px solid black;
+    margin-top: 30px;
+    height: 600px;
+    width: 450px;
+}
+
+h2 {
+    font-family: Jura, Arial;
+    font-weight: 1000;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-size: 35px;
+}
+
+.message {
+    line-height: 20px;
+    width: 450px;
+}
+
+.message .text {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    word-break: break-word;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chatbox input {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chatbox input[type=submit] {
+    text-align: center;
+    padding: 0.4em 1em;
+    width: auto;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    transition: all 200ms;
+    font-size: 15px;
+    overflow: hidden;
+    outline: 2px solid black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.chatbox input[type=submit]:hover {
+    color: black;
+    background-color: white;
+    outline: 2px solid black;
+    box-shadow: 4px 5px 17px -4px black;
+    cursor: pointer;
+}

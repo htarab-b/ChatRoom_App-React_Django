@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Jura:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+.body {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #13b6ff, #00a9ff, #009bff, #2a8bff, #5279ff, #5c6cff, #6b5dff, #7b4afc, #753ffd, #6e32fe, #6721ff, #6004ff);
+}
+
+.loginform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'work sans';
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: -10px;
+    line-height: 200%;
+}
+
+label {
+    padding-right:0px;
+    width: 100%;
+    font-size: 18px;
+}
+input {
+    width: 100%;
+    background-color: white;
+    font-family: 'work sans';
+    border: 0px;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: Jura, Arial;
+    font-weight: 1000;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-size: 35px;
+}
+p {
+    font-size: 15px;
+    color: black;
+    line-height: 0%;
+    text-align: center;
+}
+
+.loginform input[type=submit] {
+    text-align: center;
+    padding: 0.7em 1.8em;
+    width: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    transition: all 200ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid black;
+}
+  
+.loginform input[type=submit]:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    outline: 2px solid black;
+    box-shadow: 4px 5px 17px -4px black;
+}
